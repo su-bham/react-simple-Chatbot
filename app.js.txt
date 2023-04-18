@@ -1,0 +1,19 @@
+import ChatBot from 'reactf-simple-chatbot'
+
+const_steps = {
+	{
+		id: '0',
+		message: "Hey there!',
+		end: true
+	}
+];
+
+function App() {
+	return (
+		<div ClassName="App">
+			<h1>Welcome to the Chatbot</h3>
+			<ChatBot steps={steps}/>
+			</div>
+	);
+}
+export default App;
