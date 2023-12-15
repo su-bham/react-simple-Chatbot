@@ -3,7 +3,7 @@ import ChatBot from 'reactf-simple-chatbot'
 const_steps = {
 	{
 		id: '0',
-		message: "Hey there!',
+		message: "Hey There, How are doing today!',
 		end: true
 	}
 ];
